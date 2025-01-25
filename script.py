@@ -1,4 +1,4 @@
-
+import sys
 
 def menu():
     print("Cadastro de Clientes\n")
