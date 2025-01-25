@@ -1,4 +1,3 @@
-python
 def menu():
     print("Cadastro de Clientes\n")
     print("0 - fim")
