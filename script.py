@@ -1,4 +1,4 @@
-import sys
+
 
 def menu():
     print("Cadastro de Clientes\n")
@@ -21,6 +21,5 @@ if __name__ == "__main__":
         print("Fim do programa.")
     elif opcao in ['1', '2', '3', '4']:
         print(f"Você escolheu a opção {opcao}.")
-        # Aqui você pode implementar as funcionalidades correspondentes
     else:
         print("Opção inválida. Tente novamente.")
