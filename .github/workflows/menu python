@@ -20,3 +20,27 @@ while True:
         # Aqui você pode implementar as funcionalidades correspondentes
     else:
         print("Opção inválida. Tente novamente.")
+name: Python application
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v2  # Certifique-se de que a chave 'uses' está presente
+
+    - name: Set up Python
+      uses: actions/setup-python@v2  # Certifique-se de que a chave 'uses' está presente
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt  # Certifique-se de que a chave 'run' está presente
+
+    - name: Run script
+      run: python script.py  # Certifique-se de que a chave 'run' está presente
