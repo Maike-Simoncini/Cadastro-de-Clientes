@@ -2,18 +2,21 @@ import sys
 
 def menu():
     print("Cadastro de Clientes\n")
-    print("0 - fim")
-    print("1 - incluir")
-    print("2 - alterar")
-    print("3 - excluir")
-    print("4 - consultar")
+    print("0 - Fim")
+    print("1 - Incluir")
+    print("2 - Alterar")
+    print("3 - Excluir")
+    print("4 - Consultar")
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:
         opcao = sys.argv[1]
     else:
-        opcao = input("Opção: ")
+        print("Opção não fornecida como argumento.")
+        sys.exit(1)
         
+    print(f"Opção escolhida: {opcao}")
+    
     if opcao == '0':
         print("Fim do programa.")
     elif opcao in ['1', '2', '3', '4']:
