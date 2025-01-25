@@ -6,7 +6,8 @@ Este projeto é um exemplo de script Python para cadastro de clientes.
 
 1. Clone este repositório:
 
-git clone https://
+git clone
+ https://maike-simoncini.github.io/Cadastro-de-Clientes/
 
 2. Navegue até o diretório do projeto:
 
@@ -20,4 +21,4 @@ Substitua `<opcao>` por uma das opções disponíveis (0, 1, 2, 3, 4).
 
 **Link:**
 
-[]
+[https://maike-simoncini.github.io/Cadastro-de-Clientes/]
