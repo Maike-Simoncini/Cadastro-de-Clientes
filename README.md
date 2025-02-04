@@ -39,7 +39,7 @@ Substitua `[opção]` por um dos seguintes valores:
 
 ### 🔗 Link para o Projeto
 
-[Ver Projeto no GitHub](https://maike-simoncini.github.io/Cadastro-de-Clientes/) 
+[Ver Projeto no GitHub](https://github.com/Maike-Simoncini/Cadastro-de-Clientes/tree/main) 
 
 ### 📄 Licença
 Este projeto é de código aberto e pode ser utilizado por qualquer pessoa.
